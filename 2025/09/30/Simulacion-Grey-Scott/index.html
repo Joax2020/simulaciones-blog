@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Modelo de Gray-Scott - Patrones Emergentes en Sistemas de Reacción-Difusión | Simulaciones Avanzadas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Modelo de Gray-Scott: Cuando la Simplicidad Genera ComplejidadEn el estudio de sistemas dinámicos, existen modelos que demuestran cómo interacciones locales simples pueden dar lugar a patrones globale">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Modelo de Gray-Scott - Patrones Emergentes en Sistemas de Reacción-Difusión">
+<meta property="og:url" content="https://joax2020.github.io/simulaciones-blog/2025/09/30/Simulacion-Grey-Scott/index.html">
+<meta property="og:site_name" content="Simulaciones Avanzadas">
+<meta property="og:description" content="Modelo de Gray-Scott: Cuando la Simplicidad Genera ComplejidadEn el estudio de sistemas dinámicos, existen modelos que demuestran cómo interacciones locales simples pueden dar lugar a patrones globale">
+<meta property="og:locale" content="es_ES">
+<meta property="article:published_time" content="2025-09-30T19:28:00.000Z">
+<meta property="article:modified_time" content="2025-09-30T19:41:48.859Z">
+<meta property="article:author" content="Joaquín Claros, Efrain Blanco, Aaron Mendoza, Victor Mamani">
+<meta property="article:tag" content="Patrones Emergentes">
+<meta property="article:tag" content="Reacción-Difusión">
+<meta property="article:tag" content="Simulación">
+<meta property="article:tag" content="Sistemas Complejos">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/simulaciones-blog/atom.xml" title="Simulaciones Avanzadas" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/simulaciones-blog/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/simulaciones-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/simulaciones-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 8.0.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/simulaciones-blog/" id="logo">Simulaciones Avanzadas</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/simulaciones-blog/" id="subtitle">Explorando nuevos paradigmas de simulación</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/simulaciones-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/simulaciones-blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/simulaciones-blog/atom.xml" title="RSS"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Buscar"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Buscar"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://joax2020.github.io/simulaciones-blog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Simulacion-Grey-Scott" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/simulaciones-blog/2025/09/30/Simulacion-Grey-Scott/" class="article-date">
+  <time class="dt-published" datetime="2025-09-30T19:28:00.000Z" itemprop="datePublished">2025-09-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/simulaciones-blog/categories/Modelos/">Modelos</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Modelo de Gray-Scott - Patrones Emergentes en Sistemas de Reacción-Difusión
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Modelo-de-Gray-Scott-Cuando-la-Simplicidad-Genera-Complejidad"><a href="#Modelo-de-Gray-Scott-Cuando-la-Simplicidad-Genera-Complejidad" class="headerlink" title="Modelo de Gray-Scott: Cuando la Simplicidad Genera Complejidad"></a>Modelo de Gray-Scott: Cuando la Simplicidad Genera Complejidad</h1><p>En el estudio de sistemas dinámicos, existen modelos que demuestran cómo interacciones locales simples pueden dar lugar a patrones globales sorprendentemente complejos. Uno de los más fascinantes es el <strong>modelo de Gray-Scott</strong>, un sistema de reacción-difusión que genera estructuras que recuerdan a patrones biológicos naturales.</p>
+<h2 id="¿Que-son-los-Modelos-de-Reaccion-Difusion"><a href="#¿Que-son-los-Modelos-de-Reaccion-Difusion" class="headerlink" title="¿Qué son los Modelos de Reacción-Difusión?"></a>¿Qué son los Modelos de Reacción-Difusión?</h2><p>A diferencia de modelos poblacionales tradicionales como Malthus o Verhulst, los modelos de reacción-difusión incorporan el componente espacial, permitiendo explicar la formación espontánea de patrones en la naturaleza.</p>
+<p>Imaginen un espacio donde dos sustancias químicas interactúan:</p>
+<ul>
+<li><strong>Sustancia A (U)</strong>: Se introduce constantemente en el sistema</li>
+<li><strong>Sustancia B (V)</strong>: Se elimina progresivamente y reacciona con A</li>
+</ul>
+<p>La magia ocurre cuando dos moléculas de B reaccionan con una de A, convirtiéndola en más B - un proceso <strong>autocatalítico</strong> que genera retroalimentación positiva.</p>
+<p>Este componente extra permite explicar la <strong>formación espontánea de patrones</strong> en la naturaleza, lo que convierte al modelo de Gray-Scott en un puente entre <strong>matemáticas, biología, física y computación</strong>.</p>
+<h2 id="El-Corazon-Matematico-del-Modelo"><a href="#El-Corazon-Matematico-del-Modelo" class="headerlink" title="El Corazón Matemático del Modelo"></a>El Corazón Matemático del Modelo</h2><p>El sistema se describe mediante dos ecuaciones diferenciales parciales:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Ecuaciones del modelo Gray-Scott</span></span><br><span class="line">∂U/∂t = Du·∇²U - U·V² + F·(<span class="number">1</span> - U)</span><br><span class="line">∂V/∂t = Dv·∇²V + U·V² - (F + k)·V</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="Fundamentos-Teoricos"><a href="#Fundamentos-Teoricos" class="headerlink" title="Fundamentos Teóricos"></a>Fundamentos Teóricos</h2><h3 id="Modelos-de-Reaccion-Difusion"><a href="#Modelos-de-Reaccion-Difusion" class="headerlink" title="Modelos de Reacción-Difusión"></a>Modelos de Reacción-Difusión</h3><p>Un modelo de reacción-difusión describe cómo dos (o más) sustancias:  </p>
+<ul>
+<li>reaccionan químicamente,  </li>
+<li>se difunden en un espacio continuo o discreto.</li>
+</ul>
+<p>El resultado de estas interacciones es la <strong>auto-organización</strong>: estructuras que emergen sin necesidad de un control centralizado.</p>
+<h3 id="El-Modelo-de-Gray-Scott"><a href="#El-Modelo-de-Gray-Scott" class="headerlink" title="El Modelo de Gray-Scott"></a>El Modelo de Gray-Scott</h3><p>Propuesto en los años 80, el modelo de Gray-Scott fue estudiado en detalle por Pearson (1993), mostrando cómo reglas sencillas podían generar una diversidad de <strong>patrones espaciales</strong>: manchas, rayas, ondas, espirales.  </p>
+<p>Se centra en dos sustancias:  </p>
+<ul>
+<li><strong>U (alimentada constantemente)</strong>  </li>
+<li><strong>V (reactiva y eliminada progresivamente)</strong></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://pmneila.github.io/jsexp/grayscott/?spm=a2ty_o01.29997173.0.0.14fec921Kw28aO">https://pmneila.github.io/jsexp/grayscott/?spm=a2ty_o01.29997173.0.0.14fec921Kw28aO</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://joax2020.github.io/simulaciones-blog/2025/09/30/Simulacion-Grey-Scott/" data-id="cuid6n9pPPq4ZFk1OOY2hBdps" data-title="Modelo de Gray-Scott - Patrones Emergentes en Sistemas de Reacción-Difusión" class="article-share-link"><span class="fa fa-share">Compartir</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/simulaciones-blog/tags/Patrones-Emergentes/" rel="tag">Patrones Emergentes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/simulaciones-blog/tags/Reaccion-Difusion/" rel="tag">Reacción-Difusión</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/simulaciones-blog/tags/Simulacion/" rel="tag">Simulación</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/simulaciones-blog/tags/Sistemas-Complejos/" rel="tag">Sistemas Complejos</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categorías</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/simulaciones-blog/categories/Modelos/">Modelos</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/simulaciones-blog/tags/Patrones-Emergentes/" rel="tag">Patrones Emergentes</a></li><li class="tag-list-item"><a class="tag-list-link" href="/simulaciones-blog/tags/Reaccion-Difusion/" rel="tag">Reacción-Difusión</a></li><li class="tag-list-item"><a class="tag-list-link" href="/simulaciones-blog/tags/Simulacion/" rel="tag">Simulación</a></li><li class="tag-list-item"><a class="tag-list-link" href="/simulaciones-blog/tags/Sistemas-Complejos/" rel="tag">Sistemas Complejos</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Nube de Tags</h3>
+    <div class="widget tagcloud">
+      <a href="/simulaciones-blog/tags/Patrones-Emergentes/" style="font-size: 10px;">Patrones Emergentes</a> <a href="/simulaciones-blog/tags/Reaccion-Difusion/" style="font-size: 10px;">Reacción-Difusión</a> <a href="/simulaciones-blog/tags/Simulacion/" style="font-size: 10px;">Simulación</a> <a href="/simulaciones-blog/tags/Sistemas-Complejos/" style="font-size: 10px;">Sistemas Complejos</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archivos</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/simulaciones-blog/archives/2025/09/">septiembre 2025</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Posts recientes</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/simulaciones-blog/2025/09/30/Simulacion-Grey-Scott/">Modelo de Gray-Scott - Patrones Emergentes en Sistemas de Reacción-Difusión</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 Joaquín Claros, Efrain Blanco, Aaron Mendoza, Victor Mamani<br>
+      Construido por <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/simulaciones-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/simulaciones-blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/simulaciones-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/simulaciones-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/simulaciones-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
