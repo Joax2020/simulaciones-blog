@@ -50,10 +50,8 @@ Se centra en dos sustancias:
 - **V (reactiva y eliminada progresivamente)** 
 
 <video width="100%" controls style="border-radius: 8px; margin: 1rem 0;">
-  <source src="videos/prueba.mp4" type="video/mp4">
+  <source src="videos/grey-scott.mp4" type="video/mp4">
   Tu navegador no soporta el elemento video.
 </video>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 2rem 0; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"> <iframe src="https://www.youtube.com/embed/6Bv6VIKstn0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Modelo Gray-Scott - Patrones Emergentes"> </iframe> </div>
 
 https://pmneila.github.io/jsexp/grayscott/?spm=a2ty_o01.29997173.0.0.14fec921Kw28aO
