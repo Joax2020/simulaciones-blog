@@ -47,6 +47,11 @@ Propuesto en los años 80, el modelo de Gray-Scott fue estudiado en detalle por 
 Se centra en dos sustancias:  
 
 - **U (alimentada constantemente)**  
-- **V (reactiva y eliminada progresivamente)**  
+- **V (reactiva y eliminada progresivamente)** 
+
+<video width="100%" controls>
+  <source src="/videos/prueba.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento video.
+</video>
 
 https://pmneila.github.io/jsexp/grayscott/?spm=a2ty_o01.29997173.0.0.14fec921Kw28aO
