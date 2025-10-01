@@ -50,7 +50,7 @@ Se centra en dos sustancias:
 - **V (reactiva y eliminada progresivamente)** 
 
 <video width="100%" controls>
-  <source src="/videos/prueba.mp4" type="video/mp4">
+  <source src="../videos/prueba.mp4" type="video/mp4">
   Tu navegador no soporta el elemento video.
 </video>
 
