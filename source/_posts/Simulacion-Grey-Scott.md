@@ -49,9 +49,6 @@ Se centra en dos sustancias:
 - **U (alimentada constantemente)**  
 - **V (reactiva y eliminada progresivamente)** 
 
-<video width="100%" controls>
-  <source src="../videos/prueba.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento video.
-</video>
+{% youtube 6Bv6VIKstn0 %}
 
 https://pmneila.github.io/jsexp/grayscott/?spm=a2ty_o01.29997173.0.0.14fec921Kw28aO
